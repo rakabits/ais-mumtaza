@@ -410,6 +410,18 @@
             <span class="menu-title">E-Library</span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href='home'>
+            <i class="menu-icon mdi mdi-checkbox-marked-outline"></i>
+            <span class="menu-title">Absen Santri</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href='home'>
+            <i class="menu-icon mdi mdi-close-box-outline"></i>
+            <span class="menu-title">Catatan Pelanggaran</span>
+          </a>
+        </li>
         <li class="nav-item nav-category">AKADEMIK</li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">

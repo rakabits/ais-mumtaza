@@ -62,7 +62,7 @@
             ?>
             , <span class="text-black fw-bold">M Galih Rakasiwi</span>
           </h1>
-          <h3 class="welcome-sub-text">Yuk!! Sering Tidur Biar Cepet Gapai Mipinya :)</h3>
+          <h3 class="welcome-sub-text">Yuk!! Sering Tidur Biar Cepet Gapai Mimpinya :)</h3>
 
 
 

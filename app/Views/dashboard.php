@@ -42,8 +42,30 @@
     <div class="navbar-menu-wrapper d-flex align-items-top">
       <ul class="navbar-nav">
         <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
-          <h1 class="welcome-text">Good Morning, <span class="text-black fw-bold">M Galih Rakasiwi</span></h1>
+          <h1 class="welcome-text">
+            <!-- KATA SAMBUTAN SESUAI JAM -->
+            <?php
+            date_default_timezone_set('Asia/Jakarta'); // mengatur zona waktu
+            $time = date('H:i'); // mengambil waktu saat ini
+
+            if ($time >= '00:01' && $time < '11:00') {
+              echo "Good Morning";
+            } elseif ($time >= '11:00' && $time < '13:00') {
+              echo "Good Noon";
+            } elseif ($time >= '13:00' && $time < '17:00') {
+              echo "Good Afternoon";
+            } elseif ($time >= '17:00' && $time < '19:00') {
+              echo "Good Evening";
+            } else {
+              echo "Good Night";
+            }
+            ?>
+            , <span class="text-black fw-bold">M Galih Rakasiwi</span>
+          </h1>
           <h3 class="welcome-sub-text">Your performance summary this week </h3>
+
+
+
         </li>
       </ul>
       <ul class="navbar-nav ms-auto">
@@ -447,6 +469,20 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+            <i class="menu-icon mdi mdi-file-check"></i>
+            <span class="menu-title">Exam</span>
+            <i class="menu-arrow"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+            <i class="menu-icon mdi mdi-file-lock"></i>
+            <span class="menu-title">Buat E-Test</span>
+            <i class="menu-arrow"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
             <i class="menu-icon mdi mdi-chart-line"></i>
             <span class="menu-title">Stastistics</span>
             <i class="menu-arrow"></i>
@@ -457,6 +493,7 @@
             </ul>
           </div>
         </li>
+
 
         <li class="nav-item nav-category">setting</li>
         <li class="nav-item">

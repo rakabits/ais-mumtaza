@@ -475,10 +475,9 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+          <a class="nav-link" href='form_etest'>
             <i class="menu-icon mdi mdi-file-lock"></i>
-            <span class="menu-title">Buat E-Test</span>
-            <i class="menu-arrow"></i>
+            <span class="menu-title">Buat Soal</span>
           </a>
         </li>
         <li class="nav-item">

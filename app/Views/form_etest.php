@@ -405,50 +405,6 @@
               <div class="tab-content tab-content-basic">
                 <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview">
                   <div class="row">
-                    <div class="col-sm-12">
-                      <div class="statistics-details d-flex align-items-center justify-content-between">
-                        <div>
-                          <p class="statistics-title fw-bold">Peringkat</p>
-                          <p class="statistics-title fw-bold">Kelas</p>
-                          <h3 class="rate-percentage">1</h3>
-                        </div>
-                        <div>
-                          <p class="statistics-title fw-bold">Jumlah Juz</p>
-                          <p class="statistics-title fw-bold">Hafalan Qur'an</p>
-                          <h3 class="rate-percentage">30</h3>
-                        </div>
-                        <div>
-                          <p class="statistics-title fw-bold">Jumlah</p>
-                          <p class="statistics-title fw-bold">Pelanggaran</p>
-                          <h3 class="rate-percentage">0</h3>
-                        </div>
-                        <div class="d-none d-md-block">
-                          <p class="statistics-title fw-bold">Kelas</p>
-                          <p class="statistics-title fw-bold">Sekarang</p>
-                          <h3 class="rate-percentage">1 MA</h3>
-                        </div>
-                        <div class="d-none d-md-block">
-                          <p class="statistics-title fw-bold">Date</p>
-                          <h3 class="rate-percentage">
-                            <?php
-                            echo date('l, d-m-Y'); //Menampilkan tanggal
-                            ?>
-                          </h3>
-                        </div>
-                        <div class="d-none d-md-block">
-                          <p class="statistics-title fw-bold">Clock</p>
-                          <h3 class="rate-percentage">
-                            <?php
-                            date_default_timezone_set('Asia/Jakarta'); // Zona Waktu indonesia
-                            echo date('h:i:s a'); // menampilkan jam sekarang
-                            ?>
-                          </h3>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
                     <div class="col-lg-8 d-flex flex-column">
                       <div class="row flex-grow">
                         <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">

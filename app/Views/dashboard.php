@@ -404,7 +404,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='home'>
+          <a class="nav-link" href=''>
             <i class="menu-icon mdi mdi-account-box-outline"></i>
             <span class="menu-title">Profile</span>
           </a>
@@ -424,31 +424,31 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='home'>
+          <a class="nav-link" href=''>
             <i class="menu-icon mdi mdi-book-open-page-variant"></i>
             <span class="menu-title">E-Library</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='home'>
+          <a class="nav-link" href=''>
             <i class="menu-icon mdi mdi-account-plus"></i>
             <span class="menu-title">Tambah Guru</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='home'>
+          <a class="nav-link" href=''>
             <i class="menu-icon mdi mdi-account-multiple-plus"></i>
             <span class="menu-title">Tambah Siswa</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='home'>
+          <a class="nav-link" href=''>
             <i class="menu-icon mdi mdi-checkbox-marked-outline"></i>
             <span class="menu-title">Absen Santri</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='home'>
+          <a class="nav-link" href=''>
             <i class="menu-icon mdi mdi-close-box-outline"></i>
             <span class="menu-title">Catatan Pelanggaran</span>
           </a>
